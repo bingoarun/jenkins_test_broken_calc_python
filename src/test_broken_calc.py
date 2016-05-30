@@ -11,6 +11,9 @@ class AddTestCase(unittest.TestCase):
         self.assertEqual(5,broken_add(3,3))
     def test_add_scenario_2(self):
         self.assertEqual(10,broken_add(5,6))
+    def test_add_scenario_3(self):
+        self.assertEqual(15,broken_add(2,3))
+  
 
 #if __name__ == '__main__':
 #    unittest.main()
